@@ -1,8 +1,8 @@
 # Define Azure DevOps and KeyVault variables 
-$org = "https://dev.azure.com/JFAzDoOrg"
-$project = "JFProject001"
-$vaultName = "JFCoreKV"
-$secretName = "AzDoPAT"
+$org = "https://dev.azure.com/OrgName"
+$project = "AzDoProjectName"
+$vaultName = "keyVaultName"
+$secretName = "secretName"
 
 # Get and define authentication method
 $azDoPAT = (Get-AzKeyVaultSecret -VaultName $vaultName -Name $secretName).SecretValueText
