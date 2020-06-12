@@ -1,0 +1,28 @@
+{
+    "data": {
+        "authorizationType": "AzureSubscription",
+        "azureSubscriptionId": "___Replace with Azure Subscription ID___",
+        "azureSubscriptionName": "___Replace with Azure Subscription Name___",
+        "clusterId": "___Replace with the resource ID of the AKS Cluster___",
+        "namespace": "___Replace with the AKS namespace that you are deploying to___"
+    },
+    "name": "___Replace with the desired Service Conneciton Name___",
+    "type": "kubernetes",
+    "url": "___Replace with the URL of the AKS Cluster___",
+    "authorization": {
+        "scheme": "Kubernetes",
+        "parameters": {
+            "azureEnvironment": "AzureCloud",
+            "azureTenantId": "___Replace with the Azure Tenant ID___"
+        }
+    },
+    "serviceEndpointProjectReferences": [
+        {
+            "name": "___Replace with the desired Service Conneciton Name___",
+            "projectReference": {
+                "id": "___Replace with the project ID from the Azure DevOps___",
+                "name": "___Replace with the project name from the Azure DevOps___"
+            }
+        }
+    ]
+}
