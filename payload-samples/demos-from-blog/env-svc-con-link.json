@@ -1,0 +1,6 @@
+{
+    "name": "default",
+    "namespace": "default",
+    "clusterName": "AKSCluster001",
+    "serviceEndpointId": "svcConPlaceHolder"
+}

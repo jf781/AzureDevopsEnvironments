@@ -1,0 +1,28 @@
+{
+    "data": {
+        "authorizationType": "AzureSubscription",
+        "azureSubscriptionId": "xxx",
+        "azureSubscriptionName": "JF-Lab01",
+        "clusterId": "/subscriptions/xxx/resourcegroups/JF-AKS-RG/providers/Microsoft.ContainerService/managedClusters/AKSCluster001",
+        "namespace": "default"
+    },
+    "name": "K8s-Env-003-AKSCluster001-default",
+    "type": "kubernetes",
+    "url": "https://akscluster001-dns-b89255db.hcp.centralus.azmk8s.io",
+    "authorization": {
+        "scheme": "Kubernetes",
+        "parameters": {
+            "azureEnvironment": "AzureCloud",
+            "azureTenantId": "xxx"
+        }
+    },
+    "serviceEndpointProjectReferences": [
+        {
+            "name": "K8s-Env-003-AKSCluster001-default",
+            "projectReference": {
+                "id": "xxx",
+                "name": "JFProject001"
+            }
+        }
+    ]
+}

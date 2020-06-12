@@ -1,0 +1,6 @@
+{
+    "name": "___Replace with the AKS namespace that you are deploying to___",
+    "namespace": "___Replace with the AKS namespace that you are deploying to___",
+    "clusterName": "___Replace with the AKS Cluster Name that you are deploying to___",
+    "serviceEndpointId": "svcConPlaceHolder"
+}
